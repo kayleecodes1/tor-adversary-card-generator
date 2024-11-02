@@ -3,7 +3,7 @@ import './AdversaryCard.scss';
 
 const AdversaryCard: React.FC = () => {
     return (
-        <div className="AdversaryCard">
+        <div id="AdversaryCard" className="AdversaryCard">
             <div className="AdversaryCard__header">
                 <div className="AdversaryCard__title">
                     <div className="AdversaryCard__name" contentEditable>

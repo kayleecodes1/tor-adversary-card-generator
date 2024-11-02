@@ -1,5 +1,5 @@
 import AdversaryCard from '@/components/AdversaryCard';
-// import AdversaryForm from '@/components/AdversaryForm';
+import DownloadButton from '@/components/DownloadButton';
 import './App.scss';
 
 const App: React.FC = () => {
@@ -10,9 +10,7 @@ const App: React.FC = () => {
                 <h2 className="App__subtitle">Adversary Card Generator</h2>
             </header>
             <div className="App__content">
-                {/* <section className="App__section">
-                    <AdversaryForm />
-                </section> */}
+                <DownloadButton />
                 <section className="App__section">
                     <AdversaryCard />
                 </section>
