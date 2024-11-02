@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Aniron';
+    src: url('Aniron.woff2') format('woff2'),
+        url('Aniron.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aniron';
+    src: url('Aniron-Bold.woff2') format('woff2'),
+        url('Aniron-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}

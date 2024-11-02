@@ -1,0 +1,67 @@
+.AdversaryCard {
+    box-sizing: border-box;
+    width: 467px;
+    background: #faf5e9;
+    padding: 20px;
+    border: 2px dashed #dcd6c2;
+
+    &__header {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        margin-bottom: 16px;
+    }
+
+    &__title {}
+
+    &__name {
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 1;
+        text-transform: uppercase;
+        margin-bottom: 6px;
+    }
+
+    &__distinctive-features {
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 1;
+    }
+
+    &__attribute-level {
+        margin: 0 40px;
+    }
+
+    &__attributes {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        gap: 32px;
+        margin-bottom: 18px;
+    }
+
+    &__section {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.4;
+    }
+
+    &__section-label {
+        font-weight: bold;
+        font-size: 15px;
+        color: var(--label-color);
+        text-transform: uppercase;
+
+        &::after {
+            content: ': ';
+        }
+    }
+
+    &__section-divider {
+        width: 100%;
+        height: 5px;
+        background: url(../../assets/section-divider.png) no-repeat center;
+        background-size: 100% 100%;
+        margin: 16px 0;
+    }
+}

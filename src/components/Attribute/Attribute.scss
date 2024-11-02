@@ -1,0 +1,52 @@
+.Attribute {
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding-top: 20px;
+
+    &__label {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        font-weight: bold;
+        line-height: 1;
+        color: var(--label-color);
+        text-transform: uppercase;
+        white-space: nowrap;
+        margin-bottom: 5px;
+        transform: translateX(-50%);
+
+        &--small {
+            font-size: 15px;
+        }
+
+        &--large {
+            font-size: 17px;
+        }
+    }
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        color: var(--label-color);
+
+        &--small {
+            width: 55px;
+            height: 55px;
+            font-size: 22px;
+            background: url(../../assets/attribute-container-small.png) no-repeat center;
+            background-size: 100% 100%;
+        }
+
+        &--large {
+            width: 68px;
+            height: 68px;
+            font-size: 28px;
+            background: url(../../assets/attribute-container-large.png) no-repeat center;
+            background-size: 100% 100%;
+        }
+    }
+}

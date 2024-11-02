@@ -1,0 +1,32 @@
+.App {
+    &__header {
+        text-align: center;
+        padding: 12px 24px;
+    }
+
+    &__title {
+        font-family: var(--font-family-aniron);
+        font-weight: bold;
+        font-size: 25px;
+        margin: 0;
+    }
+
+    &__subtitle {
+        font-family: var(--font-family-niveau-grotesk);
+        font-weight: bold;
+        font-size: 19px;
+        margin: 0;
+    }
+
+    &__content {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 50px;
+    }
+
+    &__section {
+        //
+    }
+}

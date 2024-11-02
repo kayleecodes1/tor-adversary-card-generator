@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Niveau Grotesk';
+    src: url('NiveauGroteskMedium.woff2') format('woff2'),
+        url('NiveauGroteskMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Niveau Grotesk';
+    src: url('NiveauGroteskLight.woff2') format('woff2'),
+        url('NiveauGroteskLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Niveau Grotesk';
+    src: url('NiveauGroteskRegular-Italic.woff2') format('woff2'),
+        url('NiveauGroteskRegular-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Niveau Grotesk';
+    src: url('NiveauGroteskBold-Italic.woff2') format('woff2'),
+        url('NiveauGroteskBold-Italic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Niveau Grotesk';
+    src: url('NiveauGroteskRegular.woff2') format('woff2'),
+        url('NiveauGroteskRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Niveau Grotesk';
+    src: url('NiveauGroteskMedium-Italic.woff2') format('woff2'),
+        url('NiveauGroteskMedium-Italic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Niveau Grotesk';
+    src: url('NiveauGroteskExtraLight.woff2') format('woff2'),
+        url('NiveauGroteskExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Niveau Grotesk';
+    src: url('NiveauGroteskExtraLight-Italic.woff2') format('woff2'),
+        url('NiveauGroteskExtraLight-Italic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Niveau Grotesk';
+    src: url('NiveauGroteskLight-Italic.woff2') format('woff2'),
+        url('NiveauGroteskLight-Italic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Niveau Grotesk';
+    src: url('NiveauGroteskBlack.woff2') format('woff2'),
+        url('NiveauGroteskBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Niveau Grotesk';
+    src: url('NiveauGroteskBold.woff2') format('woff2'),
+        url('NiveauGroteskBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Niveau Grotesk';
+    src: url('NiveauGroteskBlack-Italic.woff2') format('woff2'),
+        url('NiveauGroteskBlack-Italic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
