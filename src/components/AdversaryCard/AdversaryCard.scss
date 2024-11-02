@@ -49,12 +49,17 @@
     &__section-label {
         font-weight: bold;
         font-size: 15px;
+        letter-spacing: inherit;
         color: var(--label-color);
         text-transform: uppercase;
 
         &::after {
             content: ': ';
         }
+    }
+
+    &__section-content {
+        letter-spacing: -0.5px;
     }
 
     &__section-divider {

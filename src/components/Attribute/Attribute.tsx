@@ -27,6 +27,7 @@ const Attribute: React.FC<AttributeProps> = ({
                     'Attribute__container',
                     `Attribute__container--${size}`,
                 )}
+                contentEditable
             >
                 {typeof value === 'undefined' ? '—' : value}
             </div>

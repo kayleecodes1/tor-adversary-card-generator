@@ -9,7 +9,10 @@ const AdversaryCard: React.FC = () => {
                     <div className="AdversaryCard__name" contentEditable>
                         Highway Robber
                     </div>
-                    <div className="AdversaryCard__distinctive-features">
+                    <div
+                        className="AdversaryCard__distinctive-features"
+                        contentEditable
+                    >
                         Swift, Vengeful
                     </div>
                 </div>
@@ -28,16 +31,23 @@ const AdversaryCard: React.FC = () => {
                 <span className="AdversaryCard__section-label">
                     Combat Proficiencies
                 </span>
-                <span>Spear 3 (4/14, Pierce), Bow 2 (3/14, Pierce)</span>
+                <span contentEditable>
+                    Spear 3 (4/14, Pierce),
+                    <br />
+                    Bow 2 (3/14, Pierce)
+                </span>
             </div>
             <div className="AdversaryCard__section-divider" />
             <div className="AdversaryCard__section">
                 <span className="AdversaryCard__section-label">
                     Fell Abilities
                 </span>
-                <span>
-                    Snake-like Speed. When targeted by an attack, spend 1
-                    Resolve to make the attack roll Ill-favoured.
+                <span
+                    className="AdversaryCard__section-content"
+                    contentEditable
+                >
+                    <i>Snake-like Speed.</i> When targeted by an attack, spend 1
+                    Resolve to make the attack roll <i>Ill-favoured</i>.
                 </span>
             </div>
         </div>
