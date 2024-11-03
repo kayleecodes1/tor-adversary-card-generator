@@ -24,6 +24,10 @@
         &--large {
             font-size: 17px;
         }
+
+        &--clickable {
+            cursor: pointer;
+        }
     }
 
     &__container {

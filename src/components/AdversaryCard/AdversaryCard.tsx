@@ -23,7 +23,7 @@ const AdversaryCard: React.FC = () => {
             <div className="AdversaryCard__attributes">
                 <Attribute label="Endurance" value={16} />
                 <Attribute label="Might" value={1} />
-                <Attribute label="Resolve" value={4} />
+                <Attribute options={['Resolve', 'Hate']} value={4} />
                 <Attribute label="Parry" />
                 <Attribute label="Armour" value={2} />
             </div>
